@@ -14,4 +14,11 @@ read -s -p 'enter your password:' pass
 
 echo -e "\nhello $name,welcome to $course,your password is $pass"
 
+##Read command will  not allow scope of automations, as it is going read input from user manually. Incase of automation a user cannot be giving those inputs so script will fail , hence we prefer inputs using special variables more and more for automation, but not read command.
+
 ##Special Variables
+
+##Special Variables are $0,$1,$2...$n,$*,$@,$$,$?
+##what is $0
+echo $0
+
