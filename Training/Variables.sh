@@ -39,3 +39,6 @@ echo "Today day is TUESDAY"
 
 Date=$(date +%F)
 echo "today's date is $Date"
+
+ADD=$((4+5))
+echo "addition=$ADD"
