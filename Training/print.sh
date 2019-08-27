@@ -12,4 +12,5 @@ echo hello from app2
 
 ##how to print multiple echo in single line
 ##\n to print new line, always prefer in double quotes
-echo "hello from Line1\nHello from Line2"
+##-e option to enable \n in echo command
+echo -e "hello from Line1\nHello from Line2"
