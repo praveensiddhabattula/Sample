@@ -1,4 +1,4 @@
-!/bin/bash\
+#!/bin/bash\
 \
 ##printing in shell can be done with 2 commands\
 ##1.echo\
