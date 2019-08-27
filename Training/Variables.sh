@@ -24,4 +24,9 @@ echo "this class is about $class and no. of persons in this class =$count"
 
 echo "Welcome to this $CLASS training"
 
+##Sometime we need to declare variables during runtime
+##Declaring variable directly in script may go wrong.
+
+echo "Today day is TUESDAY"
+
 
