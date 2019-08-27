@@ -5,3 +5,7 @@
 ##2.printf\
 
 echo hi hello big world
+
+##how to print 2 lines using echo
+hello from app1
+hello from app2
