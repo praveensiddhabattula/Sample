@@ -28,12 +28,12 @@ echo -e "1.\tPraveen\t\tDevops\n2.\tmalli\t\tdevops"
 ##Blue           34		44
 ##Magenta        35		45
 ##Cyan           36		46
+##disabling the color
+##syntax \e[0m  -> 0 color code can disable the color
 
 echo -e "\e[31mred foreground color"
-echo -e "\e[32mgreen background color"
+echo -e "\e[32mgreen background color\e[0m"
 
-##disabling the color
-##syntax -e[0m  -> 0 color code can disable the color
 
 echo "no color for this statement"
 
