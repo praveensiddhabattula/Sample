@@ -19,6 +19,8 @@ echo "this class is about $class and no. of persons in this class =$count"
 ##Local Variables
 ##Declare a variable on shell and try to access that variable in script
 ##On Shell/session declare CLASS=DEVOPS
+##To convert the variable to env variable then use export command
+##export CLASS=DEVOPS
 
 echo "Welcome to this $CLASS training"
 
