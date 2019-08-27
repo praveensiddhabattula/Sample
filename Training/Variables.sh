@@ -11,3 +11,15 @@ echo "this class is about $class and no. of persons in this class =$count"
 ##or 
 ## echo "this class is abut ${class} and no. of persons in this class is ${count}"
 
+##Properties of a variable
+#1.Readwrite 	-> not discussed -->Readonly
+#2.Local 	-> Environment
+#3.Scalar 	-> no discussed -->Arrays
+
+##Local Variables
+##Declare a variable on shell and try to access that variable in script
+##On Shell/session declare CLASS=DEVOPS
+
+echo "Welcome to this $CLASS training"
+
+
