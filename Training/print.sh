@@ -11,5 +11,5 @@ echo hello from app1
 echo hello from app2
 
 ##how to print multiple echo in single line
-##\n to print new line
-echo hello from Line1\n Hello from Line2
+##\n to print new line, always prefer in double quotes
+echo "hello from Line1\nHello from Line2"
