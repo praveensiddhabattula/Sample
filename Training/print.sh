@@ -37,6 +37,6 @@ echo -e "\e[31mred foreground color\e[0m"
 echo "no color for this statement"
 
 ##print both foreground and background colours
-#syntax echo -e "\e[BGCOL:FGCOLmWORD"
-echo -e "\e[32:34mblue on green\e[om"
+#syntax echo -e "\e[BGCOL;FGCOLmWORD"
+echo -e "\e[42;34mblue on green\e[0m"
 
