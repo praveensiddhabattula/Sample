@@ -12,4 +12,4 @@ echo hello from app2
 
 ##how to print multiple echo in single line
 ##\n to print new line
-echo hello from Line1 \nHello from Line2
+echo hello from Line1\n Hello from Line2
