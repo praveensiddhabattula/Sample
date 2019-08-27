@@ -29,4 +29,13 @@ echo "Welcome to this $CLASS training"
 
 echo "Today day is TUESDAY"
 
+## if we run tomorrow it will be wrong day, so we need to do below as it should work on all days correctly by using script.
+## for this we have variable substitutions
 
+#1.Command substitution		->Variable will be declared by executing a command and output goes to variable
+##VAR=$(COMMAND)
+#2.Airthematic substitution	->Variable will be declared by solving a airthematic expression.
+##VAR=$((AIRTH-EXPRESSION))
+
+Date=$(date +%F)
+echo "today's date is $Date"
