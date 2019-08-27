@@ -31,9 +31,12 @@ echo -e "1.\tPraveen\t\tDevops\n2.\tmalli\t\tdevops"
 ##disabling the color
 ##syntax \e[0m  -> 0 color code can disable the color
 
-echo -e "\e[31mred foreground color"
-echo -e "\e[32mgreen background color\e[0m"
+echo -e "\e[31mred foreground color\e[0m"
 
 
 echo "no color for this statement"
+
+##print both foreground and background colours
+#syntax echo -e "\e[BGCOL:FGCOLmWORD"
+echo -e "\e[32:34mblue on green\e[om"
 
