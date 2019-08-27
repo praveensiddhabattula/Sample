@@ -14,3 +14,6 @@ echo hello from app2
 ##\n to print new line, always prefer in double quotes
 ##-e option to enable \n in echo command
 echo -e "hello from Line1\nHello from Line2"
+
+##\t to print tab spaces
+echo -e "1.\tPraveen\t\tDevops\n2.\tmalli\t\tdevops"
