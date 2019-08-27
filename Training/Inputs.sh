@@ -31,4 +31,4 @@ echo all arguments =$@
 ## what is $# number of arguments passed
 echo $#
 
-echo "hello $1,welcome to $2,password is $3
+echo "hello $1,welcome to $2,password is $3"
