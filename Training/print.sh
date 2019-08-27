@@ -17,3 +17,18 @@ echo -e "hello from Line1\nHello from Line2"
 
 ##\t to print tab spaces
 echo -e "1.\tPraveen\t\tDevops\n2.\tmalli\t\tdevops"
+
+##print in colours using \e
+## syntax echo -e "\e[COLmWORD"
+##color codes
+##color       foreground    background
+##Red            31		32
+##Green          32		42
+##Yellow         33		43
+##Blue           34		44
+##Magenta        35		45
+##Cyan           36		46
+
+echo -e "\e[31mred foreground color"
+echo -e "\e[32mgreen background colour"
+
