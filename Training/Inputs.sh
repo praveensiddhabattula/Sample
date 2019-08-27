@@ -21,6 +21,10 @@
 ##Special Variables are $0,$1,$2...$n,$*,$@,$$,$?
 ##what is $0, its a script name.
 echo script name =$0
-##what is $1
-echo $1
+##what is $1 , it is first argument to script
+echo first argument to script $1
+
+##what is $*
+echo all arguments =$*
+echo all arguments =$@
 
