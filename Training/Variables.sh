@@ -8,6 +8,6 @@ count=10
 class=Devops
 
 echo "this class is about $class and no. of persons in this class =$count"
-or 
+##or 
 ## echo "this class is abut ${class} and no. of persons in this class is ${count}"
 
