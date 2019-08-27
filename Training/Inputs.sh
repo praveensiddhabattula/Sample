@@ -28,3 +28,6 @@ echo first argument to script $1
 echo all arguments =$*
 echo all arguments =$@
 
+## what is $#
+echo $#
+
